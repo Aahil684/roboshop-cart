@@ -3,7 +3,7 @@ on: pull_request
 
 jobs:
   common:
-    uses:
+    uses: Aahil684/github-reusable-workflows/.github/workflows/ci-pr.yml
     with:
       component_name: cart
       app_type: nodejs
