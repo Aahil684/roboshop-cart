@@ -8,7 +8,7 @@ on:
 
 jobs:
   common:
-    uses: Aahil684/github-actions-reusable/.github/workflows/ci-main.yml@main
+    uses: Aahil684/github-actions-reusable/.github/workflows/ci-main.yml
     with:
       component_name: cart
       app_type: nodejs
